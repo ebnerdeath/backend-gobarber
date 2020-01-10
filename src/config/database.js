@@ -6,7 +6,7 @@ module.exports = {
   database: 'gobarber',
   define: {
     timestamps: true,
-    underscored: true,
-    underscoredAll: true,
+    underscored: true, // Nomenclatura de tabelas e colunas com _ e não camel case
+    underscoredAll: true, // Nomenclatura de tabelas e colunas com _ e não camel case
   },
 };
